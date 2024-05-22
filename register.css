@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0b3d91;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin : 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #0b3d91;
+}
+
+form h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #333333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.terms {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.terms input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.terms a {
+    color: #0b3d91;
+    text-decoration: none;
+}
+
+.terms a:hover {
+    text-decoration: underline;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #0b3d91;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+    background-color: #083b7a;
+}
+
+.or {
+    margin: 20px 0;
+    color: #888888;
+}
+
+.google-login {
+    width: 100%;
+    padding: 10px;
+    background-color: #4285f4;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.google-login:hover {
+    background-color: #357ae8;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+p a {
+    color: #0b3d91;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
